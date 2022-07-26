@@ -57,7 +57,7 @@ const initialState = {
 };
 
 //these are the actions that we call through the dispatch function inside of our component
-//we can definde more objects for diffrent functions inside of our actions reducer
+//we can define more objects for different functions inside of our actions reducer
 //this replaces the classic way of writing a SWTICH-CASE reducer
 const reducers = {
   colorChanger: (state, action) => {
@@ -65,7 +65,7 @@ const reducers = {
   },
 };
 
-//a redux slice accepts an object with 3 object paramteres: name, initialState and reducers
+//a redux slice accepts an object with 3 object parameters: name, initialState and reducers
 //to make it easier to manage we'll position the 3 objects outside of the main object
 const colorChangeSlice = createSlice({
   name: name,
